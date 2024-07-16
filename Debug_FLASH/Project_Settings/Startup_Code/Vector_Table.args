@@ -1,0 +1,23 @@
+-c
+-I../RTD/include
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/src/RTE"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/src/BSW_CDD_UART"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/src"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/src/SWC"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/generate/include"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/RTD/include"
+-I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/header"
+-I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/BaseNXP_TS_T40D2M20I0R0/include"
+-I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/Platform_TS_T40D2M20I0R0/include"
+-I"C:/NXP/S32DS.3.5/S32DS/software/PlatformSDK_S32K1_S32M24/RTD/Platform_TS_T40D2M20I0R0/startup/include"
+-I"D:/MCAL_Project/NXP_Autosar_Heat_Seat_Controller/board"
+-x assembler-with-cpp
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mlittle-endian
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="C:/NXP/S32DS.3.5/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/newlib"
